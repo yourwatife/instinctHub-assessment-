@@ -1,0 +1,24 @@
+4#Build a simple console-based calculator that: - Performs basic operations (+, –, ×, ÷). 
+#- Allows the user to perform multiple calculations until they choose to exit.
+import math 
+n = int(input("enter first number"))
+m = int(input("enter second number"))
+x = (n+ m)
+print (x)
+n = int(input("enter first number"))
+m = int(input("enter second number"))
+x = (n- m)
+print (x)
+n = int(input("enter first number"))
+m = int(input("enter second number"))
+x = (n* m)
+print (x)
+n = int(input("enter first number"))
+m = int(input("enter second number"))
+x = (n/ m)
+print (x)
+
+
+
+
+
