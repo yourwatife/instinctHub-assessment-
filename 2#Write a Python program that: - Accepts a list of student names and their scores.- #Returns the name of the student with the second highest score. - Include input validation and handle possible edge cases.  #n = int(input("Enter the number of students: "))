@@ -1,0 +1,15 @@
+2#Write a Python program that: - Accepts a list of student names and their scores.-
+#Returns the name of the student with the second highest score. - Include input validation and handle possible edge cases. 
+#n = int(input("Enter the number of students: "))
+n = str(input("Enter student name: "))
+s = int(input("Enter student score: "))
+f = str(input("Enter student name: "))
+g = int(input("Enter student score: "))
+t = str(input("Enter student name: "))
+r = int(input("Enter student score: "))
+highest_score = max(s, g, r)
+print(f"The highest score is: {highest_score}")
+
+
+    
+    
