@@ -1,0 +1,12 @@
+4#Build a simple console-based calculator that: - Performs basic operations (+, –, ×, ÷). 
+#- Allows the user to perform multiple calculations until they choose to exit.
+x = int(input("enter first  number"))
+y = int (input("enter second number"))
+c = x+ y
+d = x- y
+e = x/ y
+f = x*y
+print (c)
+print(d)
+print (e)
+print(f)
