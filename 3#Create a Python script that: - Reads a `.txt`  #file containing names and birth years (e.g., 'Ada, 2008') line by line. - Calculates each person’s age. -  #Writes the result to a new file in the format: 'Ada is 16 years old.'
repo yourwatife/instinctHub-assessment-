@@ -1,0 +1,14 @@
+3#Create a Python script that: - Reads a `.txt` 
+#file containing names and birth years (e.g., 'Ada, 2008') line by line. - Calculates each person’s age. - 
+#Writes the result to a new file in the format: 'Ada is 16 years old.' 
+txt = "bolu is{age} years old" 
+#txt = "ada" "2005"
+print ("age" in txt)
+birth_year = 2005
+current_year = 2025
+age = current_year - birth_year
+output_line = f"{name} is {age} years old.\n"
+            
+            # Write to output file
+#outfile.write(output_line)
+print ("age")
